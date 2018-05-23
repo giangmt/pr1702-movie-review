@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require ckeditor/init
 //= require_tree .
 //= require jquery-1.11.1.min
 //= require app
@@ -21,7 +22,6 @@
 //= require ie-support/respond
 //= require min/app-min
 //= require min/plugins-min
-
 
 
 
