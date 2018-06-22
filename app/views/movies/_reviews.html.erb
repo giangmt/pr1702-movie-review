@@ -13,17 +13,14 @@
         <%= link_to t(".see_more") %>
         <div class="interactive-review">
           <div class="inter-label">
-            <h4><%= t ".liked" %> <span class="badge"><%= review.count_like_reviews %></span></h4>
+            <h4><%= t ".liked" %> <span class="badge" id="like_count"><%= review.count_like_reviews %></span></h4>
           </div>
           <div class="inter-actions">
             <% if user_signed_in? %>
               <% unless current_user.has_review?(review) %>
-                <%= form_for @like do |f| %>
-                  <%= render "shared/error_messages", object: f.object %>
-                  <%= f.hidden_field :review_id, value: review.id %>
-                  <h5><%= t ".ask" %></h5>
-                  <%= f.submit t(".yes_btn") %>
-                <% end %>
+                <div id="like_form">
+                  <%= render partial: "movies/like", locals: {review: review, movie_id: review.movie.id} %>
+                </div>
               <% end %>
             <% end %>
           </div>
