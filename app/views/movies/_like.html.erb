@@ -1,0 +1,6 @@
+<%= form_for @like, remote: true do |f| %>
+	<%= hidden_field_tag :movie_id, movie_id %>
+  <%= f.hidden_field :review_id, value: review.id %>
+  <h5><%= t ".ask" %></h5>
+  <%= f.submit t ".yes_btn" %>
+<% end %>

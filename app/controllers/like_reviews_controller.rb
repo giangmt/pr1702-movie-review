@@ -3,12 +3,17 @@ class LikeReviewsController < ApplicationController
 
   def create
     @like = current_user.like_reviews.build like_params
-    if @like.save
-      flash[:success] = t ".success"
-      redirect_to @like.review.movie
-    else
-      flash[:danger] = t ".failed"
-      redirect_to @like.review.movie
+    respond_to do |format|
+      if @like.save
+        format.html { redirect_to @like.review.movie }
+        format.js
+      else
+        movie = Movie.find_by id: params[:movie_id]
+        format.html do
+          flash[:danger] = t ".not_found"
+          movie ? redirect_to(movie) : redirect_to(root_url)
+        end
+      end
     end
   end
 

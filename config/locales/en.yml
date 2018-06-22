@@ -51,20 +51,24 @@ en:
       review: "User Reviews"
       submit: "Submit"
     properties:
-       cast: "Cast"
-       director: "Director"
-       genre: "Genre"
-       length: "Length"
-       premiere: "Premiere"
-       rating: "Rating"
-       share: "Share this movie:"
+      cast: "Cast"
+      director: "Director"
+      genre: "Genre"
+      length: "Length"
+      premiere: "Premiere"
+      rating: "Rating"
+      share: "Share this movie:"
     trailer:
       trailer: "Trailer"
     add_to_watchlist:
       add_watchlist: "Add to watchlist"
-    reviews:
+    like:
       ask: "Was this review helpful to you?"
       yes_btn: "YES"
+    reviews:
+      liked: "Liked"
+      posted: "Posted"
+      see_more: "Seel more"
     movie:
       genre: "Genre"
       reviews: "reviews"
@@ -78,10 +82,6 @@ en:
       try_again: "Oop! Try again!"
     new:
       not_found: "Not found movie!"
-    reviews:
-      review_by: "Review by"
-      like: "Was this review helpful to you?"
-      yes_button: "YES"
     form:
       submit: "Submit"
       back: "Back"
@@ -266,4 +266,5 @@ en:
     create:
       success: "Liked success!"
       failed: "Failed"
+      not_found: "Not found review!"
       
