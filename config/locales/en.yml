@@ -249,7 +249,7 @@ en:
   watchlists:
     create:
       added: "Added to watchlist"
-      failed: "Failed!"
+      not_found: "Not found movie!"
     destroy:
       remove: "Removed from watchlist"
       failed: "Failed!"

@@ -12,11 +12,14 @@
     </div>
     <div class="col-md-5">
       <% if user_signed_in? %>
-        <% unless current_user.has_watchlist?(@movie) %>
-          <div class="add_watchlist">
-            <%= render "add_to_watchlist" %>
-          </div>
-        <% end %>
+        <div class="add_watchlist">
+          <% if current_user.has_watchlist?(@movie) %>
+            <div class="wl_ribbon wl_ribbon_done"></div>
+          <% else %>
+            <div class="wl_ribbon" id="elem"></div>
+            <div class="bookrmark"><%= render "add_to_watchlist" %></div>
+          <% end %>
+        </div>
       <% end %>
       <h2 class="movie-title"><%= @movie.name %></h2>
       <div class="movie-summary">

@@ -1,0 +1,15 @@
+.wl_ribbon {
+  background: url(watchlist-ribbon.png);
+  background-position: -30px 0;
+  height: 30px;
+  width: 30px;
+}
+
+.wl_ribbon_done {
+  @extend .wl_ribbon;
+  background-position: 0 0;
+}
+
+.movie-name {
+  display: inline-flex;
+}
