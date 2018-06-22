@@ -1,0 +1,8 @@
+<div class="movie-list">
+  <% @movies.each do |movie| %>
+    <%= render partial: "movies/movie", locals: {movie: movie} %>
+  <% end %>
+</div>
+<div class="pagination">
+  <%= will_paginate @movies %>
+</div>
