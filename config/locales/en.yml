@@ -267,4 +267,8 @@ en:
       success: "Liked success!"
       failed: "Failed"
       not_found: "Not found review!"
+  user:
+    email: "email"
+    facebook_data: "devise.facebook_data"
+    github_data: "devise.github_data"
       
