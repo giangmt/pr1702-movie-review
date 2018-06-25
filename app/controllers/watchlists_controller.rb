@@ -3,12 +3,17 @@ class WatchlistsController < ApplicationController
 
   def create
     @add_watchlist = current_user.watchlists.build watchlist_params
-    if @add_watchlist.save
-      flash[:success] = t ".added"
-      redirect_to @add_watchlist.movie
-    else
-      flash[:danger] = t ".failed"
-      redirect_to @add_watchlist.movie
+    respond_to do |format|
+      if @add_watchlist.save
+        format.html {redirect_to @add_watchlist}
+        format.js
+      else
+        movie = Movie.find_by id: params[:movie_id]
+        format.html do
+          flash[:danger] = t ".not_found"
+          movie ? redirect_to(@add_watchlist.movie) : redirect_to(root_url)
+        end
+      end
     end
   end
 

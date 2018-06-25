@@ -3,10 +3,6 @@
 
 $gray-medium-light: #eaeaea;
 
-.dropdown {
-  display: inline;
-}
-
 .screenshots {
   margin-top: 10px;
   margin-bottom: 30px;
@@ -137,6 +133,7 @@ tr:hover {background-color: #f5f5f5;}
 }
 
 .add_watchlist {
+  display: inline-flex;
   float: right;
 }
 
@@ -221,4 +218,8 @@ tr:hover {background-color: #f5f5f5;}
 
 .review-title {
   display: grid;
+}
+
+li.account {
+  display: inline-block;
 }
