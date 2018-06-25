@@ -116,6 +116,20 @@ Movie.create!(name: "Toy Story 3",
   release_date: "2010-09-12",
   genre_id: 5,
   description_id: 3)
+
+10.times do |n|
+  User.create(
+    email: "test#{n+1}@mail.com",
+    password: "123456",
+    confirmed_at: Time.now,
+    confirmation_token: nil,
+    role: "user")
+end
+User.create(email: "admin@mail.com",
+  password: "123456",
+  confirmed_at: Time.now,
+  confirmation_token: nil,
+  role: "admin")
 # Movie.update([2,3],
   # [{length: "01:00:00"},{length: "02:21:22"}] )
 # Movie.update([1,2],[{trailer: "_EhiLLOhVis"}, {trailer: "82onGmBx9ZM"}])
