@@ -14,3 +14,5 @@ reviews:
 gravatar:
   size: 50
   default_size: 80
+min_password_length: 6
+max_password_length: 32
