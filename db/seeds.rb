@@ -116,6 +116,107 @@ Movie.create!(name: "Toy Story 3",
   release_date: "2010-09-12",
   genre_id: 5,
   description_id: 3)
+Movie.create!(name: "7 Days in Entebbe",
+  image: "https://yts.am/assets/images/movies/7_days_in_entebbe_2018/medium-cover.jpg",
+  trailer: "kuTBea8_-LY",
+  synopsis: "In July 1976, an Air France flight from Tel-Aviv to Paris via Athens was hijacked and forced to land in Entebbe, Uganda. The Jewish passengers were separated and held hostage in demand to release many terrorists held in Israeli prisons. After much debate, the Israeli government sent an elite commando unit to raid the airfield and release the hostages..",
+  release_date: "2016-06-04",
+  genre_id: 6,
+  description_id: 3)
+Movie.create!(name: "Kings",
+  image: "https://yts.am/assets/images/movies/kings_2017/medium-cover.jpg",
+  trailer: "bqZIo7MFV0w",
+  synopsis: "The life of a foster family in South Central Los Angeles, a few weeks before the city erupts in violence following the verdict of the Rodney King trial.",
+  release_date: "2015-06-04",
+  genre_id: 7,
+  description_id: 4)
+Movie.create!(name: "Look Back in Anger",
+  image: "https://yts.am/assets/images/movies/look_back_in_anger_1959/medium-cover.jpg",
+  trailer: "Fox5lvYA9gI",
+  synopsis: 'Jimmy Porter is a loud, obnoxious man, rude and verbally abusive to his wife, Alison. Alison comes from an upper class family that Jimmy abhors and he berates Alison for being too reserved and unfeeling. Jimmy is college educated but works with a partner, Cliff Lewis, as a street vendor operating a candy stall. Cliff lives with Jimmy and Alison and is close friends with both. When Jimmy pushes Alison while she is at the ironing board she is burned. Alison visits her doctor where it is revealed that she is pregnant. She asks him if it is too late to do something about it but the doctor immediately tells her never to mention such an idea. When Jimmy leaves for work, Alison confides to Cliff that she is pregnant. She is frightened of Jimmy reaction to this news, and has not told him. Jimmy is visited by his childhood nanny, Mrs. Tanner, whom Jimmy loves and calls "Mom." Alison tries to tell Jimmy of the pregnancy but is frustrated when Jimmy insults her for being cool towards Mrs.',
+  release_date: "2014-06-04",
+  genre_id: 8,
+  description_id: 2)
+Movie.create!(name: "Dark River",
+  image: "https://yts.am/assets/images/movies/dark_river_2017/medium-cover.jpg",
+  trailer: "6-9rTDmTeDI",
+  synopsis: "After receiving news of her father's death, Alice, a young travelling sheep-shearer, tentatively decides to return to the dilapidated family house of her childhood, in muddy North Yorkshire. Surprisingly, it's been already fifteen years since Alice left behind an ailing dad and her older brother, Joe, to wander about from farm to farm; however, this cold and heavy homecoming will be Alice's last chance to reclaim the land she believes was once promised to her. But, now, on one hand, there's Joe's resentment paired with a rancorous rivalry between siblings--while, on the other hand--fleeting mournful shadows of a troubled past permeate the walls of an imperfect prize. What will it take to keep the haunting memories at bay?",
+  release_date: "2014-06-04",
+  genre_id: 6,
+  description_id: 1)
+Movie.create!(name: "Posse from Hell",
+  image: "https://yts.am/assets/images/movies/posse_from_hell_1961/medium-cover.jpg",
+  trailer: "JqhGUwgZ0vQ",
+  synopsis: "Murphy goes after bad guys who shot his friend the sheriff and abducted a local girl. In a plot reminiscent of High Noon, the posse of town blowhards gradually abandons Murphy; only tenderfoot banker Saxon remains, to prove his manhood. When they find the girl, obviously abused by her captors, Murphy shows her acceptance and sympathy whereas the others disply only revulsion.",
+  release_date: "2013-06-04",
+  genre_id: 2,
+  description_id: 2)
+Movie.create!(name: "Stolen princess: Ruslan and Ludmila",
+  image: "https://yts.am/assets/images/movies/stolen_princess_ruslan_and_ludmila_2018/medium-cover.jpg",
+  trailer: "JbBUlxkwMjU",
+  synopsis: "This wonderful story happened in the age of valiant knights, beautiful princesses, and battling sorcerers. Ruslan, a wandering artist dreaming to become a knight, met beautiful Mila and fell in love with her; he didn't even suspect that she is the King's daughter. However, the lovers' happiness wasn't meant to last too long. Chernomor, the evil sorcerer, appeared in a magic vortex and stole Mila right before Ruslan's eyes to transform her power of love into his own magic power. Without further ado, Ruslan sets out on a chase after the stolen princess to overcome all obstacles and to prove that real love is stronger than magic.",
+  release_date: "2012-06-04",
+  genre_id: 5,
+  description_id: 2)
+Movie.create!(name: "It Had to Be You",
+  image: "https://yts.am/assets/images/movies/it_had_to_be_you_2015/medium-cover.jpg",
+  trailer: "skUILrCSwtw",
+  synopsis: "Sonia is a neurotic jingle writer who's always dreamt of a big and exciting life. Surprised by a sudden proposal and subsequent ultimatum from her easy-going boyfriend, Chris, Sonia has to decide whether she'll join the ranks of her married friends or take a leap and pursue her fantasies. A whimsical romantic comedy that's raunchy and yet gentle, 'It Had To Be You' explores the choices women face today while satirizing cultural expectations of gender and romance.",
+  release_date: "2011-06-04",
+  genre_id: 7,
+  description_id: 3)
+Movie.create!(name: "Summer of Dreams",
+  image: "https://yts.am/assets/images/movies/summer_of_dreams_2016/medium-cover.jpg",
+  trailer: "VRioItvpBMA",
+  synopsis: "Washed up pop-star has to move back to her hometown and finds a new direction by teaching young music students at the local high-school. Romance is not far behind.",
+  release_date: "2010-06-04",
+  genre_id: 3,
+  description_id: 3)
+Movie.create!(name: "Blind Dating",
+  image: "https://yts.am/assets/images/movies/blind_dating_2006/medium-cover.jpg",
+  trailer: "3Xu-wHKdjKo",
+  synopsis: "U.S.-based Leeza works in Dr. Perkins Medical Research Facility. Her mother, originally from India, was single when she arrived in America, and fell in with a Caucasian male as he looked like a movie star. Her dreams were shattered when he married a prettier Caucasian, leaving her to marry an East Indian. Leeza, now engaged to a boy of her father's choice, namely U.S.-based Arvind, meets with Danny, a Caucasian who is blind since his premature birth. He has enrolled himself at Dr. Perkins facility to try out a new procedure that will result in surgery to a part of his brain to restore his visual cortex, enabling him see in fuzzy black and white images. She is attracted to him, but is aware of her commitment to marry Arvind and feels it would be against the Hindu culture (where love is measured with loyalty, trust, respect, and commitment) to break off her engagement - especially when it seems that Danny may be able to see, reject her, and get involved with a much more attractive.",
+  release_date: "2009-05-04",
+  genre_id: 4,
+  description_id: 3)
+Movie.create!(name: "Life of the Party",
+  image: "https://yts.am/assets/images/movies/life_of_the_party_2018/medium-cover.jpg",
+  trailer: "T1B1CxmAXLk",
+  synopsis: "When her husband suddenly dumps her, longtime dedicated housewife Deanna turns regret into re-set by going back to college - landing in the same class and school as her daughter, who's not entirely sold on the idea. Plunging headlong into the campus experience, the increasingly outspoken Deanna -- now Dee Rock -- embraces freedom, fun, and frat boys on her own terms, finding her true self in a senior year no one ever expected.",
+  release_date: "2008-03-04",
+  genre_id: 4,
+  description_id: 1)
+Movie.create!(name: "The Yellow Birds",
+  image: "https://yts.am/assets/images/movies/the_yellow_birds_2017/medium-cover.jpg",
+  trailer: "jegKZ0av8Wg",
+  synopsis: "John Bartle and the difficulties he faces in keeping his humanity, his urge to survive and his friend Murph alive during the war in Iraq, as well as his life and struggles with his memories of the war after he comes back to Virginia.",
+  release_date: "2007-02-03",
+  genre_id: 6,
+  description_id: 3)
+
+10.times do |n|
+  Review.create(title: "This is review title #{n+1}",
+    content: "The incredible story of Donald Crowhurst , an amateur sailor who competed in the 1968 Sunday Times Golden Globe Race in the hope of becoming the first person in history to single-handedly circumnavigate the globe without stopping. With an unfinished boat and his business and house on the line, Donald leaves his wife, Clare and their children behind, hesitantly embarking on an adventure on his boat the Teignmouth Electron. The story of Crowhurst's dangerous solo voyage and the struggles he confronted on the epic journey while his family awaited his return is one of the most enduring mysteries of recent times.",
+    user_id: n+1,
+    movie_id: n+1,
+    rating: 4)
+end
+
+10.times do |n|
+  Review.create(title: "This is review title #{n+11}",
+    content: "The incredible story of Donald Crowhurst , an amateur sailor who competed in the 1968 Sunday Times Golden Globe Race in the hope of becoming the first person in history to single-handedly circumnavigate the globe without stopping. With an unfinished boat and his business and house on the line, Donald leaves his wife, Clare and their children behind, hesitantly embarking on an adventure on his boat the Teignmouth Electron. The story of Crowhurst's dangerous solo voyage and the struggles he confronted on the epic journey while his family awaited his return is one of the most enduring mysteries of recent times.",
+    user_id: n+1,
+    movie_id: n+11,
+    rating: 5)
+end
+
+5.times do |n|
+  Review.create(title: "This is review title #{n+2}",
+    content: "The incredible story of Donald Crowhurst , an amateur sailor who competed in the 1968 Sunday Times Golden Globe Race in the hope of becoming the first person in history to single-handedly circumnavigate the globe without stopping. With an unfinished boat and his business and house on the line, Donald leaves his wife, Clare and their children behind, hesitantly embarking on an adventure on his boat the Teignmouth Electron. The story of Crowhurst's dangerous solo voyage and the struggles he confronted on the epic journey while his family awaited his return is one of the most enduring mysteries of recent times.",
+    user_id: n+2,
+    movie_id: 1,
+    rating: 5)
+end
 
 10.times do |n|
   User.create(
@@ -125,6 +226,12 @@ Movie.create!(name: "Toy Story 3",
     confirmation_token: nil,
     role: "user")
 end
+
+10.times do |n|
+  Relationship.create(follower_id: n+1,
+    followed_id: n+2)
+end
+
 User.create(email: "admin@mail.com",
   password: "123456",
   confirmed_at: Time.now,
