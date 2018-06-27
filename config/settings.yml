@@ -1,8 +1,8 @@
 movies:
   synop_short: 60
   limit: 5
-  name_length: 30
-  page: 5
+  name_length: 25
+  page: 10
   synopsis_short: 200
   rating:
     score: 4.5
