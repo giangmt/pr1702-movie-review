@@ -1,5 +1,3 @@
-# Additional translations at https://github.com/plataformatec/devise/wiki/I18n
-
 en:
   devise:
     confirmations:
@@ -52,6 +50,18 @@ en:
       send_instructions: "You will receive an email with instructions for how to unlock your account in a few minutes."
       send_paranoid_instructions: "If your account exists, you will receive an email with instructions for how to unlock it in a few minutes."
       unlocked: "Your account has been unlocked successfully. Please sign in to continue."
+    shared:
+      links:
+        confirmations: "confirmations"
+        forgot: "Forgot your password?"
+        login: "Login"
+        not_receive: "Didn't receive unlock instructions?"
+        passwords: "passwords"
+        receive: "Didn't receive confirmation instructions?"
+        registrations: "registrations"
+        sign_in_with: "Sign in with"
+        sign_up: "Sign up"
+        unlocks: "unlocks"
   errors:
     messages:
       already_confirmed: "was already confirmed, please try signing in"

@@ -30,11 +30,14 @@ en:
       social: "Social Media"
     search:
       placeholder: "Search movies..."
+      search: "Search"
     application:
+      admin_only:
+        opp: "You dont have authorized access to this action"
+      english: "English"
+      languages: "Languages: "
       title: "Movie Reviews"
-  application:
-    admin_only:
-      opp: "You dont have authorized access to this action"
+      vietnamese: "Vietnamese"
   movies:
     index:
       browse_movies: "Browse Movies"
@@ -48,7 +51,7 @@ en:
       home: "Home"
       new_review: "Write Review"
       not_found: "Not found movie!"
-      review: "User Reviews"
+      user_review: "User Reviews"
       submit: "Submit"
     properties:
       cast: "Cast"
@@ -61,6 +64,7 @@ en:
     trailer:
       trailer: "Trailer"
     add_to_watchlist:
+      add: "Add"
       add_watchlist: "Add to watchlist"
     like:
       ask: "Was this review helpful to you?"
@@ -76,6 +80,12 @@ en:
       year: "Year"
     top:
       top: "Top Movies"
+    short_movie_info:
+      genre: "Genre"
+      premiere: "Premiere"
+      length: "Length"
+      director: "Director"
+      cast: "Cast"
   reviews:
     create:
       success: "Successfully created review!"
@@ -271,4 +281,7 @@ en:
     email: "email"
     facebook_data: "devise.facebook_data"
     github_data: "devise.github_data"
+  will_paginate:
+    previous_label: "&#8592; Previous"
+    next_label: "Next &#8594;"
       

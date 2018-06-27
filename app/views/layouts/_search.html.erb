@@ -1,4 +1,4 @@
 <%= search_form_for @search, url: search_path do |f| %>
   <%= f.search_field :name_cont, placeholder: t(".placeholder") %>
-  <%= f.submit %>
+  <%= f.submit t ".search" %>
 <% end %>

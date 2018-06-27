@@ -1,0 +1,280 @@
+vi:
+  layouts:
+    header:
+      account: "Tài khoản"
+      admin: "Quản trị"
+      browse_movies: "Duyệt phim"
+      description: "PR1702 - Team 1 (Giang, Dat)"
+      home: "Trang chủ"
+      login: "Đăng nhập"
+      logout: "Đăng xuất"
+      manage: "Quản lý phim"
+      profile: "Hồ sơ"
+      register: "Đăng ký"
+      title: "Đánh gía phim"
+    footer:
+      about: "Về chúng tôi"
+      copyright: "Copyright 2018 Movie Reviews, All rights reserved"
+      help: "Trung tâm trợ giúp"
+      join: "Tham gia với chúng tôi"
+      news: "Bản tin"
+      recent: "Đánh gía gần đây"
+      social: "Truyền thông xã hội"
+    search:
+      placeholder: "Tìm kiếm phim..."
+      search: "Tìm kiếm"
+    application:
+      admin_only:
+        opp: "Bạn không được phép truy cập để thực hiện hành động này."
+      title: "Đánh gía phim"
+      english: "Tiếng Anh"
+      languages: "Ngôn ngữ: "
+      title: "Đánh gía phim"
+      vietnamese: "Tiếng Việt"
+  movies:
+    index:
+      browse_movies: "Duyệt phim"
+      filter: "Bộ lọc phim"
+      genres: "Tất cả thể loại"
+      home: "Trang chủ"
+      years: "Năm" 
+      rating: "Xếp hạng"
+    show:
+      browse: "Duyệt phim"
+      home: "Trang chủ"
+      new_review: "Viết bài đánh gía"
+      not_found: "Không tìm thấy phim!"
+      user_review: "Bài đánh gía của người dùng"
+      submit: "Gửi"
+    properties:
+      cast: "Diễn viên"
+      director: "Đạo diễn"
+      gển: "Thể loại"
+      length: "Thời lưọng"
+      premiere: "Năm phát hành"
+      rating: "Xếp hạng"
+      share: "Chia sẻ phim này:"
+    trailer:
+      trailer: "Đoạn phim giới thiệu"
+    add_to_watchlist:
+      add: "Thêm"
+      add_watchlist: "Thêm vào danh sách theo dõi"
+    like:
+      ask: "Bài đánh gía này có hữu ích cho bạn không?"
+      yes_btn: "CÓ"
+    reviews:
+      liked: "Đã thích"
+      posted: "Đã đăng"
+      see_more: "Xem thêm"
+    movie:
+      genre: "Thể loại"
+      reviews: "đánh gía"
+      star: "sao"
+      year: "Năm"
+    top:
+      top: "Phim hàng đầu"
+    short_movie_info:
+      genre: "Thể loại"
+      premiere: "Năm"
+      length: "Thời lưọng"
+      director: "Đạo diễn"
+      cast: "Diễn viên"
+  reviews:
+    create:
+      success: "Bài đánh gía được tạo thành công!"
+      try_again: "Oop! Thử lại đi!"
+    new:
+      not_found: "Không tìm thấy phim!"
+    form:
+      submit: "Gửi"
+      back: "Quay lại"
+      placeholder: "Viết tiêu đề cho bài đánh gía của bạn ở đây..."
+  comments:
+    create:
+      created: "Đã tạo nhận xét thành công!"
+    update:
+      updated: "Đã cập nhật nhận xét thành công!"
+    destroy:
+      destroyed: "Đã hủy nhận xét thành công!"
+    form:
+      com_holder: "Đăng một nhận xét..."
+      comment: "Thêm nhận xét"
+    comments:
+      comment_by: "Nhận xét bởi"
+      edit: "Chỉnh sửa"
+      delete: "Xóa"
+  devise:
+    sessions:
+      new:
+        login: "Đăng nhập"
+    registrations:
+      edit:
+        back: "Quay lại"
+        cancel: "Hủy tài khoản của tôi"
+        confirm: "Bạn có chắc chắn không?"
+        edit: "Chỉnh sửa"
+        unhappy: "Không hài lòng?"
+        update: "Cập nhật"
+      new:
+        sign_up: "Đăng ký"
+    passwords:
+      new:
+        forgot: "Quên mật khẩu của bạn?"
+        send: "Gửi cho tôi hướng dẫn đặt lại mật khẩu"
+      edit:
+        change_password: "Thay đổi mật khẩu của bạn"
+  relationships:
+    create:
+      followers: "Followers"
+      not_found: "Không tìm thấy người dùng!"
+    destroy:
+      followers: "Followers"
+      not_found: "Không tìm thấy người dùng!"
+  users:
+    activity:
+      bookmarks: "Dấu trang"
+      reviews: "Bài đánh gía"
+    bookmarks:
+      action: "Tác vụ"
+      dated: "Ngày"
+      movie: "Phim"
+      synopsis: "Tóm tắt"
+      remove: "Xóa"
+      delete: "delete"
+      sure: "Bạn có chắc chắn không?"
+    follow:
+      follow: "Theo dõi"
+    info:
+      account: "Tài khoản đưọc tạo vào"
+      description: "Mô tả"
+    profile:
+      followers: "Người theo dõi"
+      following: "Đang theo dõi"
+    unfollow:
+      unfollow: "Hủy theo dõi"
+    reviews:
+      liked: "Đã thích"
+      posted: "Đã đăng"
+      see_more: "Xem thêm"
+    show:
+      profile: "Hồ sơ"
+      activity: "Hoạt động"
+      not_found: "Không tìm thấy người dùng!"
+  admin:
+    movies:
+      index:
+        list: "Danh sách phim"
+      new:
+        add: "Thêm mới một bộ phim"
+        sub: "Gửi"
+        cancel: "Hủy"
+      movie:
+        all: "Tất cả phim"
+        add: "Thêm mới một bộ phim"
+        id: "Id"
+        image: "Hình ảnh"
+        title: "Tiêu đề"
+        trailer: "Đoạn phim giới thiệu"
+        genre: "Thể loại"
+        rd: "Năm phát hành"
+        syn: "Tóm tắt"
+        des: "Mô tả"
+      create:
+        create_success: "Đã tạo phim thành công!"
+      update:
+        update_success: "Đã cập nhật phim thành công!"
+        update_failed: "Cập nhật bị lỗi."
+      destroy:
+        delete_success: "Đã xóa phim"
+        delete_failed: "Đã xảy ra sự cố"
+    genres:
+      index:
+        list: "Danh sách thể loại"
+      new:
+        add: "Thêm mới thể loại"
+        sub: "Gửi"
+        cancel: "Hủy"
+      genre:
+        all: "Tất cả thể loại"
+        add: "Thêm thể loại"
+        name: Tên thể loại
+        pr: "Id thể loại gốc"
+      create:
+        create_success: "Thể loại đã được tạo!"
+        create_failed: "Đã xảy ra sự cố."
+      update:
+        update_success: "Đã cập nhật thể loại thành công"
+        update_failed: "Cập nhật lỗi."
+      destroy:
+        delete_success: "Đã xóa thể loại"
+        delete_failed: "Đã xảy ra sự cố"
+      find_genre:
+        find_failed: "Không tìm thấy thể loại"
+    descriptions:
+      index:
+        list: "Danh sách mô tả"
+      new:
+        add: "Thêm mới mô tả"
+        sub: "Gửi"
+        cancel: "Hủy"
+      description:
+        all: "Tất cả mô tả"
+        add: "Thêm mới mô tả"
+        did: "Id mô tả"
+        dname: "Tên đạo diễn"
+        cname: "Tên diễn viên"
+      create:
+        create_success: "Đã tạo mô tả"
+        create_failed: "Đã xảy ra lỗi."
+      update:
+        update_success: "Đã cập nhật mô tả thành công!"
+        update_failed: "Cập nhật lỗi"
+      destroy:
+        delete_success: "Mô tả đã xóa"
+        delete_failed: "Đã xảy ra sự cố"
+      find_description: "Không tìm thấy mô tả"
+    users:
+      index:
+        list: "Danh sách người dùng"
+      user:
+        all: "Tất cả người dùng"
+        email: "Email người dùng"
+        ca: "Đã được tạo vào"
+        role: "Quyền"
+      update:
+        update_success: "Đã cập nhật thành công!"
+        update_failed: "Cập nhật bị lỗi."
+      destroy:
+        delete_success: "Đã xóa người dùng"
+        delete_failed: "Đã xảy ra sự cố"
+      find_user:
+        find_failed: "Không tìm thấy người dùng"
+  watchlists:
+    create:
+      added: "Đã thêm vào danh sách theo dõi."
+      not_found: "Không tìm thấy phim."
+    destroy:
+      remove: "Đã xóa khỏi danh sách theo dõi."
+      failed: "Thất bại."
+  static_page:
+    home:
+      home: "Trang chủ"
+      new_reviews: "Đánh gía mới"
+      newest: "Mới nhất"
+      see_all: "Xem tất cả"
+      top_rated: "Xếp hạng cao nhất"
+    search:
+      results: "Kết quả tìm kiếm"
+  like_reviews:
+    create:
+      success: "Đã thích thành công!"
+      failed: "Thất bại."
+      not_found: "Không tìm thấy bài đánh gía."
+  user:
+    email: "email"
+    facebook_data: "devise.facebook_data"
+    github_data: "devise.github_data"
+  will_paginate:
+    previous_label: "&#8592; Trước"
+    next_label: "Tiếp theo &#8594;"
+      
