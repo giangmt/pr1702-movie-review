@@ -276,7 +276,9 @@ en:
     create:
       success: "Liked success!"
       failed: "Failed"
-      not_found: "Not found review!"
+      movie_not_exist: "Movie not exist!"
+      review_already_liked: "Review already liked!"
+      review_not_exist: "Review not exist!"
   user:
     email: "email"
     facebook_data: "devise.facebook_data"
@@ -284,4 +286,4 @@ en:
   will_paginate:
     previous_label: "&#8592; Previous"
     next_label: "Next &#8594;"
-      
+
