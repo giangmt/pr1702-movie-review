@@ -37,7 +37,7 @@ vi:
       filter: "Bộ lọc phim"
       genres: "Tất cả thể loại"
       home: "Trang chủ"
-      years: "Năm" 
+      years: "Năm"
       rating: "Xếp hạng"
     show:
       browse: "Duyệt phim"
@@ -269,7 +269,9 @@ vi:
     create:
       success: "Đã thích thành công!"
       failed: "Thất bại."
-      not_found: "Không tìm thấy bài đánh gía."
+      movie_not_exist: "Phim không tồn tại!"
+      review_already_liked: "Bài đánh giá đã được thích!"
+      review_not_exist: "Đánh giá không tồn tại!"
   user:
     email: "email"
     facebook_data: "devise.facebook_data"
@@ -277,4 +279,4 @@ vi:
   will_paginate:
     previous_label: "&#8592; Trước"
     next_label: "Tiếp theo &#8594;"
-      
+

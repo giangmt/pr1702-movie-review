@@ -10,7 +10,7 @@ movies:
 users:
   page: 2
 reviews:
-  cont_length: 500
+  cont_length: 800
 gravatar:
   size: 50
   default_size: 80
