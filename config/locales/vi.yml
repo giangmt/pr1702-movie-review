@@ -169,7 +169,7 @@ vi:
     reviews:
       liked: "Đã thích"
       posted: "Đã đăng"
-      see_more: "Xem thêm"
+      read_more: "Xem thêm"
     show:
       profile: "Hồ sơ"
       activity: "Hoạt động"
