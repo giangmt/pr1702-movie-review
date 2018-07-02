@@ -88,8 +88,10 @@ en:
       cast: "Cast"
   reviews:
     create:
-      success: "Successfully created review!"
-      try_again: "Oop! Try again!"
+      successfully: "Successfully created review!"
+      unsuccessfully: "Can't write review"
+    load_movie:
+      not_found: "Movie not exist!"
     new:
       not_found: "Not found movie!"
     form:

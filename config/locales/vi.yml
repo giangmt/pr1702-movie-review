@@ -1,4 +1,16 @@
 vi:
+  activerecord:
+    errors:
+      models:
+        review:
+          attributes:
+            movie:
+              taken: "Bạn chỉ được đánh giá một lần cho bộ phim này!"
+            rating:
+              blank: "Xếp hạng không được để trống"
+            content:
+              blank: "Nội dung không được để trống"
+              too_short: "Nội dung là quá ngắn"
   layouts:
     header:
       account: "Tài khoản"
@@ -81,8 +93,10 @@ vi:
       cast: "Diễn viên"
   reviews:
     create:
-      success: "Bài đánh gía được tạo thành công!"
-      try_again: "Oop! Thử lại đi!"
+      successfully: "Bài đánh gía được tạo thành công!"
+      unsuccessfully: "Đã xảy ra lỗi."
+    load_movie:
+      not_found: "Phim không tồn tại!"
     new:
       not_found: "Không tìm thấy phim!"
     form:

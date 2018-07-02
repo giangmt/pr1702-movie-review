@@ -8,10 +8,10 @@ class ReviewsController < ApplicationController
   def create
     @review = current_user.reviews.build review_params
     if @review.save
-      flash[:success] = t ".success"
+      flash[:success] = t ".successfully"
       redirect_to @movie
     else
-      flash[:danger] = t ".try_again"
+      flash[:danger] = t ".unsuccessfully"
       render :new
     end
   end
