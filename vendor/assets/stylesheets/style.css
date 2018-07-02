@@ -4,7 +4,7 @@
  * Email: info@themezy.com
  * URL: http://themezy.com
  */
-/*=========================================== 
+/*===========================================
  * Importing CSS Libraries
  *===========================================*/
 article,
@@ -185,7 +185,8 @@ input[type="radio"] {
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
-  box-sizing: content-box; }
+  box-sizing: content-box;
+  width: 300px; }
 
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
@@ -1411,7 +1412,7 @@ ul.arrow {
 .main-navigation {
   float: right;
   background: white;
-  border-radius: 5px; }
+  border-radius: 5px;}
   .main-navigation .menu-toggle, .main-navigation .menu, .main-navigation .search-form {
     display: inline-block;
     vertical-align: middle; }
@@ -1432,7 +1433,7 @@ ul.arrow {
         display: none !important; } }
   .main-navigation .menu {
     list-style: none;
-    margin: 0; }
+    margin-right: 20px; }
     @media screen and (min-width: 991px) {
       .main-navigation .menu {
         display: inline-block !important; } }
