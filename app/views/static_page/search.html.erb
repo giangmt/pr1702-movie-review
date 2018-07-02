@@ -8,5 +8,8 @@
         <%= render partial: "movies/movie", locals: {movie: movie} %>
       <% end %>
     </div>
+    <div class="pagination">
+      <%= will_paginate @movies %>
+    </div>
   </div>
 </div>
