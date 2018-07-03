@@ -156,16 +156,25 @@ vi:
       remove: "Xóa"
       delete: "delete"
       sure: "Bạn có chắc chắn không?"
+    edit_user:
+      update: "Cập nhật"
     follow:
       follow: "Theo dõi"
     info:
       account: "Tài khoản đưọc tạo vào"
-      description: "Mô tả"
+      update_profile: "Cập nhật hồ sơ"
     profile:
       followers: "Người theo dõi"
       following: "Đang theo dõi"
     unfollow:
       unfollow: "Hủy theo dõi"
+    update:
+      failure: "Cập nhật không thành công"
+      updated: "Cập nhật hồ sơ thành công!"
+      user_not_exists: "Người dùng không tồn tại"
+    update_profile:
+      close: "Đóng"
+      update_user_profile: "Cập nhật hồ sơ người dùng"
     reviews:
       liked: "Đã thích"
       posted: "Đã đăng"
@@ -173,7 +182,7 @@ vi:
     show:
       profile: "Hồ sơ"
       activity: "Hoạt động"
-      not_found: "Không tìm thấy người dùng!"
+      user_not_exists: "Người dùng không tồn tại"
   admin:
     movies:
       index:

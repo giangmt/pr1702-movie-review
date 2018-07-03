@@ -151,16 +151,25 @@ en:
       remove: "Remove"
       delete: "delete"
       sure: "Are you sure?"
+    edit_user:
+      update: "Update"
     follow:
       follow: "Follow"
     info:
       account: "Account created at"
-      description: "Description"
+      update_profile: "Update Profile"
     profile:
       followers: "Followers"
       following: "Following"
     unfollow:
       unfollow: "Unfollow"
+    update:
+      failure: "Update unsuccessful"
+      updated: "Profile updated!"
+      user_not_exists: "User not exists"
+    update_profile:
+      close: "Close"
+      update_user_profile: "Update User Profile"
     reviews:
       liked: "Liked"
       posted: "Posted"
@@ -168,7 +177,7 @@ en:
     show:
       profile: "Profile"
       activity: "Activity"
-      not_found: "Not found user!"
+      user_not_exists: "User not exists"
   admin:
     movies:
       index:

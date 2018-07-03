@@ -236,3 +236,7 @@ li.account {
 .links {
   display: block;
 }
+
+.btn_update_user {
+  margin-top: 20px;
+}
