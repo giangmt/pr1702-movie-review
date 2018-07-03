@@ -18,6 +18,8 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable, :confirmable,
          :omniauthable, omniauth_providers: [:facebook, :github]
 
+  mount_uploader :avatar, PictureUploader
+
   enum role: [:user, :admin]
   after_initialize :set_default_role
 

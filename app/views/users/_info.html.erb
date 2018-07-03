@@ -1,11 +1,18 @@
 <div class="media">
   <div class="media-left">
-    <%= gravatar_for @user %>
+    <% if @user.avatar? %>
+      <%= image_tag @user.avatar, size: Settings.gravatar.default_size %>
+    <% else %>
+      <%= gravatar_for @user %>
+    <% end %>
   </div>
   <div class="media-body">
-    <h4 class="media-heading"><%= @user.email %><br>
+    <h4 class="media-heading"><%= @user.name? ? @user.name : @user.email %><br>
     <small><i><%= t ".account" %> <%= (@user.created_at).strftime("%B %e, %Y") %></i></small></h4>
-    <%= link_to t(".description") %><br>
+    <% if @user == current_user %>
+      <%= link_to t(".update_profile"), "#", {"data-toggle": "modal", "data-target": "#update-profile-modal"} %>
+      <%= render "update_profile" %>
+    <% end %>
   </div>
   <div class="follow">
     <% if user_signed_in? %>

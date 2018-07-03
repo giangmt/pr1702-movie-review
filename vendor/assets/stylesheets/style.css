@@ -186,7 +186,7 @@ input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  width: 300px; }
+  width: 250px; }
 
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {

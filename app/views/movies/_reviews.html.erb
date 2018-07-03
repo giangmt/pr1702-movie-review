@@ -2,10 +2,14 @@
   <% @reviews.each do |review| %>
     <div class="media">
       <div class="media-left">
+      <% if review.user.avatar? %>
+        <%= link_to image_tag(review.user.avatar, size: Settings.gravatar.default_size), user_path(review.user) %>
+      <% else %>
         <%= link_to gravatar_for(review.user), user_path(review.user) %>
+      <% end %>
       </div>
       <div class="media-body">
-        <h4 class="media-heading"><%= review.user.email %>
+        <h4 class="media-heading"><%= review.user.name? ? review.user.name : review.user.email %>
           <small><i><%= t ".posted" %> <%= review.created_at.strftime("%B %e, %Y") %></i></small></h4>
         <div class="star-rating" data-score= <%= review.rating %> ></div>
         <h5><%= review.title %></h5>
